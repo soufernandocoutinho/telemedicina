@@ -1,0 +1,110 @@
+/* Documentação: apresentação responsiva do aviso e do controle de preferências de privacidade. */
+.gp-consent-banner[hidden],
+.gp-consent-manage[hidden] {
+  display: none !important;
+}
+
+.gp-consent-banner {
+  position: fixed;
+  z-index: 2000;
+  inset: auto 16px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1040px;
+  margin-inline: auto;
+  padding: 20px 22px;
+  border: 1px solid #d8e0ea;
+  border-radius: 16px;
+  color: #172033;
+  background: #fff;
+  box-shadow: 0 16px 48px rgba(16, 24, 40, 0.2);
+  font:
+    14px/1.5 system-ui,
+    sans-serif;
+}
+
+.gp-consent-copy {
+  max-width: 650px;
+}
+
+.gp-consent-copy strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+.gp-consent-copy p {
+  margin: 0;
+  color: #526174;
+}
+
+.gp-consent-copy a {
+  color: #1459b8;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.gp-consent-actions {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.gp-consent-actions button,
+.gp-consent-manage {
+  min-height: 42px;
+  padding: 9px 14px;
+  border: 1px solid #1459b8;
+  border-radius: 8px;
+  font:
+    700 13px/1.2 system-ui,
+    sans-serif;
+  cursor: pointer;
+}
+
+.gp-consent-actions button:focus-visible,
+.gp-consent-manage:focus-visible {
+  outline: 3px solid #90baff;
+  outline-offset: 2px;
+}
+
+.gp-consent-reject {
+  color: #1459b8;
+  background: #fff;
+}
+
+.gp-consent-accept,
+.gp-consent-manage {
+  color: #fff;
+  background: #1459b8;
+}
+
+.gp-consent-manage {
+  position: fixed;
+  z-index: 1999;
+  right: 16px;
+  bottom: 84px;
+  box-shadow: 0 6px 20px rgba(16, 24, 40, 0.18);
+}
+
+@media (max-width: 700px) {
+  .gp-consent-banner {
+    inset-inline: 10px;
+    bottom: 10px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+    padding: 16px;
+  }
+
+  .gp-consent-actions {
+    flex-direction: column-reverse;
+  }
+
+  .gp-consent-actions button {
+    width: 100%;
+  }
+}
