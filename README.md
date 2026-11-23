@@ -36,4 +36,4 @@ Esta página estática está hospedada no **GitHub Pages** e pode ser acessada p
 
 Este projeto e seus conteúdos são propriedade da FC Soluções Digitais / Guia Panorama. O código-fonte, marca, identidade visual, textos, imagens e demais materiais não podem ser distribuídos, copiados, modificados, sublicenciados, vendidos ou utilizados por terceiros, integral ou parcialmente, sem autorização escrita prévia da FC Soluções Digitais / Guia Panorama.
 
-O uso deste repositório é restrito à empresa titular e às pessoas expressamente autorizadas por ela. Qualquer uso não autorizado constitui violação de direitos autorais e poderá ser sujeito às medidas legais cabíveis.
+ O uso deste repositório é restrito à empresa titular e às pessoas expressamente autorizadas por ela. Qualquer uso não autorizado constitui violação de direitos autorais e poderá ser sujeito às medidas legais cabíveis.
